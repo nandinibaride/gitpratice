@@ -1,0 +1,10 @@
+#! /bin/bash -x
+
+read -p "Enter the number:" n
+ 
+if [ n -ge 18 ]
+then
+    echo " apply for voting "
+else
+    echo " not apply for voting "
+fi
