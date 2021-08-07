@@ -1,0 +1,11 @@
+ #!  /bin/bash
+$dir= "nandu"
+
+if [ -d "$dir" ];
+then
+
+ echo "folder already exits !!"
+else
+ echo "folder not exits lets created it "
+    mkdir $dir
+fi
